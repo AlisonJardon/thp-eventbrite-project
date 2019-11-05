@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-gem 'bcrypt', '~> 3.1.7'
+# gem 'bcrypt', '~> 3.1.7'
 
 # Use Devise for authentication and user management
 gem 'devise'
@@ -35,6 +35,8 @@ gem 'jquery-rails'
 # The Bootstrap gem
 gem 'bootstrap', '~>4.3.1'
 
+  # getting nice seeds
+  gem 'faker'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
