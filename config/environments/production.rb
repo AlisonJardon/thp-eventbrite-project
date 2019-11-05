@@ -64,6 +64,7 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "eventbrite-v2_#{Rails.env}"
 
   config.action_mailer.perform_caching = false
+  config.action_mailer.default_url_options = { :host => 'aj-thp-eventbrite-project.herokuapp.com' }
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
@@ -93,4 +94,3 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 end
 
-config.action_mailer.default_url_options = { :host => 'aj-thp-eventbrite-project.herokuapp.com' }
