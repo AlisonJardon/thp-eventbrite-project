@@ -50,8 +50,6 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  # getting nice seeds
-  gem 'faker'
   # display data nicely in terminal
   gem 'table_print'
   # easier-to-read error messages
