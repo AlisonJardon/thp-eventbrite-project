@@ -1,37 +1,8 @@
-# EVENTBRITE : DEVISONS GAIEMENT !
+Hello !
 
-## The Hacking Project - Bootcamp Fullstack Web
-### Semaine 6, jour JOUR 2.
-
-> 
-
-This app aims to be a simplified mockup of [Eventbrite](https://www.eventbrite.com). It was built as a part of a Webdevelopment course.
-
-***
-
-## Fonctionnalités présentes
-* Base de données
-  * modèles User, Event et Attendance
-  * avec leurs associations et validations
-* Envoi automatique d'emails
-  * email de bienvenue à la création d'un utilisateur
-  * email de notification (pour l'administrateur de l'évènement) à la création d'une réservation
-* Affichage d'une page d'accueil avec navbar
-
-***
-
-## Installation
-### Voir une démo de l'application en 'production'
-
-Ça se passe sur [HEROKU](https://gaael-eventbrite-v2.herokuapp.com/).
+Voici le lien vers Heroku :
 
 ### Réaliser des tests en local
-
-Cloner le repository : 
-~~~bash
-$ git clone https://framagit.org/gaael/thp-07-02-eventbrite-v2.git
-~~~
-Ou télécharger sa version compressée puis l'extraire.
 
 Se placer dans le dossier `thp-07-02-eventbrite-v2-master`. Installer les gemmes nécessaires (via *Bundler*)
 ~~~bash
@@ -123,27 +94,3 @@ gem 'jquery'
 gem 'bootstrap', '~>v4.3.1'
 ~~~
 
-***
-
-## Testing
-
-None yet.
-
-***
-
-## Historique des versions
-
-* version 1.20 : devise views setup
-* version 1.10 : index page and navbar
-* version 1.00 : repo init
-
-***
-
-## Credits
-Les ressources de [The Hacking Project](https://www.thehackingproject.org/)\
-Les [guides de Rails](https://guides.rubyonrails.org/index.html)
-
-
-## Meta
-Gaël Dubois - [Twitter](https://twitter.com/GalDUBOIS1) - [GitHub](https://github.com/gaael/)\
-Distribué sous license GNU-GPLv3. Voir `LICENCE.txt` pour plus d'informations.
