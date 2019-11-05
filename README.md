@@ -1,6 +1,6 @@
 Hello !
 
-Voici le lien vers Heroku :
+Voici le lien vers Heroku : https://dashboard.heroku.com/apps/aj-thp-eventbrite-project
 
 ### Réaliser des tests en local
 
